@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(31, 26, 26);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 3em;
+}
+
+h1 {
+    display: inline-block;
+    padding: 1em;
+    border: 3px solid #fff;
+    border-radius: 5em;
+    font-size: 2em;
+}
+
+.set-timer-sec {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.set-timer-sec div {
+    margin: 0 1.5em;
+}
+
+.pom i, .break-sec i {
+    margin: 0 1em;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.countdown {
+    font-size: 7em;
+    border: 2px solid #fff;
+    border-radius: 0.5em;
+    padding: 68px;
+}
+
+.countdown-time {
+    margin-top: 9em;
+}
+
+.countdown-sec i {
+    font-size: 1.5em;
+    margin: 0 1em;
+    color: #000;
+    cursor: pointer;
+}
+
+.countdown-sec {
+    display: inline-block;
+    margin: 4em 0;
+    border-radius: 0.5em;
+    background-color: #fff;
+    padding: 1em;
+    position: absolute;
+    right: 560px;
+    bottom: 273px;
+}
+
+.blue {
+    color: blue;
+}
+
+.timer {
+   font-size: 2em;
+}
+
+.green {
+    border: none;
+    background-color: rgb(12, 117, 12);
+}
+
+.yellow {
+    background-color: rgb(196, 196, 15);
+    border: none;
+}
+
+.ylw {
+    color: rgb(196, 196, 15);
+}
+
+
+.maroon {
+    background-color: maroon;
+    border: none;
+}
+
+.pom p, .break-sec p {
+    margin-bottom: 1em;
+}

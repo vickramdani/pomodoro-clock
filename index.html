@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Pomodoro Clock</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>POMODORO CLOCK</h1>
+        <div class="set-timer-sec">
+            <div class="pom">
+                <p class="session">SESSION TIME</p>
+                <i class="fa fa-angle-down"></i>
+                <span class="timer" id="pomodoro"></span>
+                <i class="fa fa-angle-up"></i>
+            </div>
+
+            <div class="break-sec">
+                <p class="break-session">BREAK TIME</p>
+                <i class="fa fa-angle-down break-down"></i>
+                <span class="timer" id="breaks"></span>
+                <i class="fa fa-angle-up break-up"></i>
+            </div>
+        </div>
+
+        <div class="countdown-sec">
+            <i class="fa fa-play"></i>
+            <i class="fa fa-pause "></i>
+            <i class="fa fa-refresh"></i>
+        </div>
+
+        <div class="countdown-time">
+            <span class="countdown"></span>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
